@@ -177,7 +177,7 @@ print(transdata4)
 line(transdata4, 'Renewable energy consumption (% of total final energy consumption)',
      'Year', '% of Renewable energy consumption')
 
-# Creating a variable with years
+# initializing a variable  year_heat with years
 year_heat = ['2000', '2004', '2008', '2012', '2016']
 #creating a variable indicators for HeatMap
 indicators = ['Renewable energy consumption (% of total final energy consumption)',
