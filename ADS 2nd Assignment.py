@@ -208,5 +208,5 @@ kurtosis = descr['Electricity production from oil sources (% of total)'].kurtosi
 )
 print('Skewness of Population growth in United Arab Emirates : ', skewness)
 print('Kurtosis of Electricity production from natural gas in United Arab Emirates : ', kurtosis)
-# saves result to a csv file
+# saves results as a csv file
 stats_summary.to_csv('statistics_report.csv')
